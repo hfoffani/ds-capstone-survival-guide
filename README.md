@@ -25,6 +25,9 @@
 - Keep your development environment as close as it is possible to the target platform. At this point shinyapps.io is using [Ubuntu 12.04](https://wiki.ubuntu.com/PrecisePangolin) with `en_US.UTF-8` locale. You can create similar environment using tools like [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/) or [VirtualBox](http://virtualbox.org/).
 - Create a reproducible R environment ([Packrat](https://rstudio.github.io/packrat/) is your friend) for your project. Dealing with broken dependencies is a painful and time-consuming process.
 - If you execute memory/CPU intensive task try to avoid RStudio.
+- As soon as possible build a Shiny test app and R-pres slides and publish them.
+- Version-control your project by using a private repository (public ones are a no-no in the Capstone). They are very useful when you find that the new approach you try is como to a dead end.
+- Test a lot. Test with different browsers and OS. Your app will be in the wild so test it with any input you can imagine.
 
 ## Use of Unix command-line tools
 - Most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts using Unix/Linux pipes.
@@ -66,6 +69,8 @@
 - Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
 - Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town.
 - Again, get started as early as possible. Unlike other previous courses in Data Science Specialization, Capstone is much more open-ended which requires more time to think, survey, trial and error. Even if you did pretty well on other 9 courses, it's still possible that you don't have a clue in the beginning.
+- Plan for extra time for optimization issues. There's many items that your app would need for improvement: accuracy, performance, memory footprint, etc.
+
 
 ## Slow or unreliable internet connections
 
